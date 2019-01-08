@@ -1,0 +1,36 @@
+body{
+	display: flex;
+	flex-direction: row;
+	margin: 0;
+}
+
+.left-col{
+	height: 100vh;
+	width: 50vw;
+	background-color: red;
+}
+
+.right-col{
+	height: 100vh;
+	width: 50vw;
+}
+
+.top-row{
+	display: flex;
+	flex-direction: column;
+	height: 30vh;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+}
+
+#inputs{
+	display: flex;
+	flex-direction: row;
+	height: 40px;
+}
+
+.bottom-row{
+	height: 70vh;
+	background-color: powderblue;
+}
