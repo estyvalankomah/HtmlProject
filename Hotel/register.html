@@ -7,14 +7,14 @@
 <body>
 	<div class="left-col"></div>
 	<div class="right-col">
-		<p>Register</p>
-		<div class="form">
-			<input type="text" placeholder="First name" name="input">
-			<input type="text" placeholder="Last name" name="input">
-			<input type="text" placeholder="Email" name="input">
-			<input type="text" placeholder="Password" name="input">
-			<button>Create account</button>
-		</div>
+		<h3>Register</h3>
+			<form class="form" action="index.html" method="post">
+			<input type="text" placeholder="Full name" name="name" required>
+			<input type="text" placeholder="Email" name="email" required>
+			<input type="text" placeholder="Password" name="password" required>
+			<input type="text" placeholder="Confirm Password" name="password_confirmation" required>
+			<button type="submit">Create account</button>
+			</form>
 	</div>
 </body>
 </html>
