@@ -63,6 +63,11 @@ button{
 }
 
 .bottom-row{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
 	height: 70vh;
-	background-color: powderblue;
+	background-color: #e6e6ff;
 }
