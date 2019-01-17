@@ -8,7 +8,7 @@ body{
 	height: 100vh;
 	width: 50vw;
 	background-image: url('hotel.jpg');
-	background-size: 800px 700px;
+	background-size: cover;
 	background-repeat: no-repeat;
 }
 
@@ -20,15 +20,17 @@ body{
 .top-row{
 	display: flex;
 	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 	height: 30vh;
 }
 
 .top-row p{
-	align-content: left;
-	align-items: left;
-	justify-content: left;
-	padding-bottom: 10px;
-	padding-left: 90px;
+	/* align-content: center; */
+	/* align-items: left; */
+	/* justify-content: left; */
+	/* padding-bottom: 10px; */
+	/* padding-left: 90px; */
 	font-family: calibri;
 	font-size: 30px;
 }
@@ -53,13 +55,20 @@ input{
 }
 
 button{
-	border:1px solid skyblue;
-	height: 40px;
+	border:1px solid silver;
+	height: 48px;
 	width: 80px;
-	background-color: transparent;
-	border-radius: 24px;
+	background-color: grey;
+	border-radius: 4px;
 	font-weight: bolder;
-	color:skyblue;
+	color:white;
+  margin-left: 5px;
+  transition: 2s;
+}
+
+button:hover{
+  background-color: transparent;
+  color:grey;
 }
 
 .bottom-row{
